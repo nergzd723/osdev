@@ -10,8 +10,8 @@ LD=~/.local/binutils/bin/i386-unknown-linux-gnu-ld
 # https://en.wikipedia.org/wiki/QEMU
 # Virtual machine
 QEMU=qemu-system-i386
-
-GCC=i686-x0r3d-elf
+TDIR = ~/i686-x0r3d-elf/bin/
+GCC=~/i686-x0r3d-elf/bin/i686-x0r3d-elf
 
 CFLAGS = -m32 -nostdlib -nostdinc -fno-builtin -fno-stack-protector \
          -Wall -Wextra -Werror -c
