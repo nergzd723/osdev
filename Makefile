@@ -11,10 +11,10 @@ LD=~/.local/binutils/bin/i386-unknown-linux-gnu-ld
 # Virtual machine
 QEMU=qemu-system-i386
 
-GCC=gcc
+GCC=i686-x0r3d-elf
 
 CFLAGS = -m32 -nostdlib -nostdinc -fno-builtin -fno-stack-protector \
-         -Wall -Wextra -Werror -c --target=x86_64-elf
+         -Wall -Wextra -Werror -c
 
 ASFLAGS = -f elf
 
